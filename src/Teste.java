@@ -28,9 +28,9 @@ public class Teste {
 		out.write("AUTH LOGIN \r\n");
 		out.flush();
 		Thread.sleep(1000);
-		out.write("YWxleC5qdW5pb3IuY2FybG9zMjNAZ21haWwuY29tCg==\r\n");
+		out.write("base64user\r\n");
 		out.flush();
-		out.write("VG9yaW1lTmFndW1lMDAxMAo=\r\n");
+		out.write("base64pass\r\n");
 		out.flush();
 		out.write("MAIL FROM: <alex.junior.carlos23@gmail.com> \r\n");
 		out.flush();
